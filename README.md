@@ -18,6 +18,14 @@ python train.py
 
 The script downloads MNIST automatically, trains a small fully connected network for five epochs, prints test accuracy, and saves `mnist_model.keras`.
 
+## Evaluate
+
+```bash
+python evaluate.py
+```
+
+Loads `mnist_model.keras` and reports test loss and accuracy.
+
 ## Model
 
 - Input: flattened 28×28 grayscale images (784 features)
